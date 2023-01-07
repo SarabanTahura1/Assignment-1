@@ -3,35 +3,27 @@
     font-family: 'Work Sans';
     padding: 0;
 }
-nav {
-    justify-content: space-around;
 
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
 }
-
-.nav-title {
+.nav-title{
     font-weight: 800;
     font-size: 45px;
-
 }
-
-nav ul {
+nav ul{
     display: flex;
-   align-items: center;
-   margin-left: 1200px;
-   margin-top: 0;
-
-
+    align-items: center;
 }
-
-nav li {
+nav li{
     list-style: none;
-    padding: 10px;
-    margin-top: 0px;
-  font-size: 30px;
-  color: chocolate;
-
+    margin-left: 50px;
+    font-size: 30px;
+    color: chocolate;
 }
+
 span{
     color: chocolate;
 }
@@ -46,9 +38,10 @@ background-size: cover;
 
 }
 .top-right{
+ 
     margin-left: 850px; 
     margin-right: 250px;
-    padding: 250px;
+    padding: 180px;
   
 
  text-align: right;
@@ -105,19 +98,21 @@ padding: 5px;
 /* main section end */
 
 .section-head-title{
-    
-margin-left: 50%;
+
+margin-left: 48%;
     font-size: 50px;
     margin-bottom: 30px;
     font-weight: 900;
+    align-items: center;
+    
 
 
 
 }
 .skill-container{
-    margin-left: 35%;
+    margin-left: 25%;
     display: flex;
-    gap: 50px;
+    gap: 100px;
    text-align: center;
  
     
@@ -125,14 +120,15 @@ margin-left: 50%;
 }
 /* my plans and skill section end here */
 .linear{
-    width: 830px;
+ margin-left: 400px;
     height: 300px;
-    
- margin-top: 100px;
- margin-left: 35%;
- margin-right: 45%;
+   
+ 
+margin-top: 100px;
+background-repeat: no-repeat;
  margin-bottom: 100px;
-background-size: cover;
+ width: 1140px;
+
 
     
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
@@ -172,7 +168,7 @@ footer{
 }
 .footer-left{
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 90px;
     width: 30%;
    
 }
@@ -180,18 +176,40 @@ footer{
     margin-bottom: 15px;
 }
 .footer-paragraph{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+ padding: 15px 15px 15px 0;
+   
+ 
 }
 .footer-right{
-    width: 30%;
+   
 margin-left: 600px;
 margin-top: 90px;
+
 }
 .footer-right-heading{
     margin-bottom: 15px;
 }
-.footer-input{
-    margin-bottom: 10px;
-  
-   background-color: rgb(17, 2, 17);
-}
+
+input[type="text"], textarea {
+margin-bottom: 10px;
+
+background-color: rgb(17, 2, 17);
+width: 200px;
+height: 50px;
+border-style: solid ;
+      border-width: 1px;
+padding-left: 10px;
+border-radius: 5px;
+color: white;
+    }
+    ::placeholder { 
+        color: white;
+        opacity: 1; 
+      }
