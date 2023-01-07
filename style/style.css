@@ -12,7 +12,7 @@ nav {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
-   
+
 }
 
 nav ul {
@@ -20,8 +20,8 @@ nav ul {
    align-items: center;
    margin-left: 1200px;
    margin-top: 0;
-  
-  
+
+
 }
 
 nav li {
@@ -30,7 +30,7 @@ nav li {
     margin-top: 0px;
   font-size: 30px;
   color: chocolate;
-  
+
 }
 span{
     color: chocolate;
@@ -80,9 +80,7 @@ margin-top: 15px;
 
 }
 /* header section end */
-ul.li{
-    text-decoration: none;   
-}
+
 main{
     display: flex;
     text-align: left;
@@ -105,3 +103,95 @@ padding: 5px;
 
 }
 /* main section end */
+
+.section-head-title{
+    
+margin-left: 50%;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 900;
+
+
+
+}
+.skill-container{
+    margin-left: 35%;
+    display: flex;
+    gap: 50px;
+   text-align: center;
+ 
+    
+  
+}
+/* my plans and skill section end here */
+.linear{
+    width: 830px;
+    height: 300px;
+    
+ margin-top: 100px;
+ margin-left: 35%;
+ margin-right: 45%;
+ margin-bottom: 100px;
+background-size: cover;
+
+    
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
+    border-radius: 8px;;
+}
+.linear-paragraph{
+ color: aliceblue;
+ font-size: 20px;
+ font-weight: 1000;
+ margin-bottom: 25px;
+ width: 30%;
+}
+.linear-item{
+    padding: 80px;
+    text-align: left;
+    
+}
+.linear-btn{
+    background-color: white;
+    color: rgb(224, 88, 35);
+    border: 0;
+    border-radius: 5px;
+    padding: 25px 40px;
+   
+    font-weight: 500;
+    font-size: 20px;
+ 
+}
+/* linear section end  */
+footer{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(17, 2, 17);
+    color: aliceblue;
+    text-align: left;
+}
+.footer-left{
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 30%;
+   
+}
+.footer-heading{
+    margin-bottom: 15px;
+}
+.footer-paragraph{
+    margin-bottom: 10px;
+}
+.footer-right{
+    width: 30%;
+margin-left: 600px;
+margin-top: 90px;
+}
+.footer-right-heading{
+    margin-bottom: 15px;
+}
+.footer-input{
+    margin-bottom: 10px;
+  
+   background-color: rgb(17, 2, 17);
+}
