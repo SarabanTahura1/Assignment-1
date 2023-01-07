@@ -1,7 +1,42 @@
 *{
     margin: 0;
     font-family: 'Work Sans';
+    padding: 0;
 }
+nav {
+    justify-content: space-around;
+
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+   
+}
+
+nav ul {
+    display: flex;
+   align-items: center;
+   margin-left: 1200px;
+   margin-top: 0;
+  
+  
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+    margin-top: 0px;
+  font-size: 30px;
+  color: chocolate;
+  
+}
+span{
+    color: chocolate;
+}
+/* nav section end */
+
 .header{
 background: url(../images/banner/banner2.png);
 height: 809px;
